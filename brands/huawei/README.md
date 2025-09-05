@@ -19,6 +19,14 @@ _*Some custom, unsigned bootloaders using onchiprom (BootROM) vulnerability can 
 
 Anything over Kirin 810, and Kirin 990 remains non-unlockable for the time being. However, couple of BootROM-based exploits for tethered unlocking are currently being worked on! (shh!)
 
+On 32-bit MediaTek devices, there is an exploit inspired by amonet, it's kaeru. It works by flashing a patched LK image to the device. The project supports only 4 devices: 
+amman (Huawei Y5 2019)
+kobe2 (Huawei MatePad T8)
+madrid (Huawei Y6 2019)
+modena1 (Huawei Enjoy 10e)
+
+If your device doesn't exist, try creating a port. Check the kaeru documentation for more info.
+
 If you have a device with a Snapdragon 8+ Gen 1 (Mate 50, Mate 50 Pro, Mate 50 RS, P60, P60 Pro, P60 Art, Mate X3), you're on HarmonyOS 3.0 or 4.0, and you have an EDL cable or don't mind disassembling your phone, you can try using [this tool][P60 Unlock] to unlock your bootloader.
 
 Paid methods:<br/>
